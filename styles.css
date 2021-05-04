@@ -82,6 +82,7 @@ blockquote cite cite::before {
   text-decoration:underline
 }
 h1,h2,h3,h4,h5,h6 {
+  margin-top:1.5em;
   margin-bottom:10px;
   text-decoration:none;
   color:#000
@@ -117,6 +118,7 @@ p {
 }
 body {
   font-family:Nimbus Sans,Helvetica,Liberation Sans,Nimbus Sans L,Arimo,Arial,sans-serif;
+  line-height:180%;
 }
 header {
   margin-left:auto;

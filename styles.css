@@ -108,8 +108,15 @@ h5 {
 p {
   font-size:1.15rem
 }
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url("https://fonts.gstatic.com/s/arimo/v17/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBw.ttf") format('truetype');
+}
 body {
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif
+  font-family:Nimbus Sans,Helvetica,Liberation Sans,Nimbus Sans L,Arimo,Arial,sans-serif;
 }
 header {
   margin-left:auto;

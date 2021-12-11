@@ -229,16 +229,11 @@ img {
   border-radius:7px
 }
 .post-container li a,.post-container p a {
-  text-decoration:none;
-  border-bottom:2px solid #ebebeb;
-  box-shadow:inset 0 -4px 0 #ebebeb;
+  text-decoration:underline;
   color:inherit;
   transition:background .1s cubic-bezier(.33,.66,.66,1)
 }
 .post-container li a:visited,.post-container p a:visited {
-  text-decoration:none;
-  border-bottom:2px solid #ebebeb;
-  box-shadow:inset 0 -4px 0 #ebebeb;
   color:inherit;
   transition:background .1s cubic-bezier(.33,.66,.66,1)
 }
